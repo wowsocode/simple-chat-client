@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+.clear {
+  display: block; }
+  .clear::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+#app {
+  background-color: #fff;
+  height: 100%; }
+  #app > * {
+    height: 100%; }
+  #app .username-container input, #app .username-container button {
+    margin-left: 33.3333%; }
+  #app .username-container input {
+    margin-top: 33.3333%;
+    padding: 10px;
+    outline: none;
+    box-shadow: none; }
+  #app .chat-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden; }
+    #app .chat-container > div {
+      height: 100%; }
+    #app .chat-container .input-container {
+      position: absolute;
+      height: 50px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #fff; }
+      #app .chat-container .input-container > input, #app .chat-container .input-container > button {
+        height: 40px; }
+    #app .chat-container .message-container {
+      user-select: none;
+      padding: 15px;
+      transition: height 2s ease-in-out;
+      height: calc(100% - 55px);
+      overflow-y: scroll; }
+      #app .chat-container .message-container .sent,
+      #app .chat-container .message-container .recd {
+        margin-top: 5px;
+        cursor: pointer; }
+        #app .chat-container .message-container .sent > div,
+        #app .chat-container .message-container .recd > div {
+          animation-delay: 0s;
+          animation-duration: .5s;
+          border-radius: 10px;
+          padding: 5px 10px;
+          word-wrap: break-word;
+          text-overflow: initial;
+          max-width: 66%; }
+          #app .chat-container .message-container .sent > div > span,
+          #app .chat-container .message-container .recd > div > span {
+            font-size: 8px;
+            text-align: right;
+            height: 10px;
+            display: block;
+            font-style: italic;
+            transition: all .33s ease-in-out; }
+      #app .chat-container .message-container .sent > div {
+        float: right;
+        background-color: #59B6FD;
+        color: white; }
+        #app .chat-container .message-container .sent > div > span {
+          display: none; }
+        #app .chat-container .message-container .sent > div:hover > span {
+          display: block; }
+      #app .chat-container .message-container .recd > div {
+        float: left;
+        background-color: #ccc; }
+  #app .border {
+    border-left: 1px solid #000; }
