@@ -39,6 +39,6 @@
     "webpack-cli": "^2.0.11"
   },
   "devDependencies": {
-    "webpack-bundle-analyzer": "^2.11.1"
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
