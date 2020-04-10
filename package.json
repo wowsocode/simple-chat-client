@@ -28,14 +28,14 @@
     "escape-string-regexp": "^1.0.5",
     "express": "^4.16.2",
     "fecha": "^2.3.3",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "path": "^0.12.7",
     "postcss": "^6.0.19",
     "postcss-cli": "^5.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.13.1",
     "socket.io": "^2.0.4",
-    "webpack": "^4.1.1",
+    "webpack": "^4.42.1",
     "webpack-cli": "^2.0.11"
   },
   "devDependencies": {
