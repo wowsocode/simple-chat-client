@@ -28,7 +28,7 @@
     "escape-string-regexp": "^1.0.5",
     "express": "^4.16.2",
     "fecha": "^2.3.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "path": "^0.12.7",
     "postcss": "^6.0.19",
     "postcss-cli": "^5.0.0",
