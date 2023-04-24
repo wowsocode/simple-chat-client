@@ -24,7 +24,7 @@
     "babel-preset-react": "^6.24.1",
     "classnames": "^2.2.5",
     "concurrently": "^3.5.1",
-    "cssnano": "^3.10.0",
+    "cssnano": "^6.0.0",
     "escape-string-regexp": "^1.0.5",
     "express": "^4.16.2",
     "fecha": "^2.3.3",
